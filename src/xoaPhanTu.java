@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class xoaPhanTu {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int [] array = {1,4,6,7,54,4,4,545,4};
+        int [] array = {1,4,6,7};
         System.out.println("Nhạp phần tử cần xóa");
         int x = scanner.nextInt();
         int indexDel = -1;
